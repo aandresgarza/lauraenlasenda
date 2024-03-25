@@ -1,0 +1,79 @@
+h1, h2, h3, h4, h5, h6, .navbar, body {
+    font-family: 'Mulish', sans-serif;
+    text-transform: inherit;
+    color: #00109c;
+}
+.bg-primary-default{
+    background-color: #00109c;
+}
+.text-primary-default{
+   color: #00109c!important;
+}
+
+.bg-gradiente{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,7,158,1) 50%, rgba(0,7,158,1) 100%);
+    
+}
+@media only screen and (max-width: 1057px) {
+    .bg-gradiente{
+        background: #00109c;
+        padding-top: 16px;
+    }
+}
+
+header{
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+    & div.container{
+        min-height: 50px;
+    }
+
+}
+.types{
+    & img{
+        max-width: 189px;
+    }
+}
+.badge{
+    font-size: 16px;
+}
+main{
+& section.respira{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('images/manos.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    & h1{
+       font-size: 15vw;
+       font-weight: 800;
+       color: rgba(255, 255, 255, 0.7);
+    }
+    
+}
+hr {
+    width: 36px;
+    border-top: 11px solid #A2CCC8;
+    border-radius: 200px;
+    display: inline-block;
+    margin: 0 !important;
+}
+.img-point{
+    background-image: url('images/points.png');
+    background-repeat: no-repeat;
+}
+}
+.bg-yellow{
+    background-color: #e8e892 !important;
+}
+.logo > a > img{
+    max-width: 151px;
+}
+hr {
+    width: 36px;
+    border-top: 11px solid #A2CCC8;
+    border-radius: 200px;
+    display: inline-block;
+    margin: 0 !important;
+}
